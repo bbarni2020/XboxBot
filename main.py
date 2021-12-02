@@ -76,7 +76,7 @@ async def sf(ctx):
     await memberk.add_roles(discord.utils.get(memberk.guild.roles, name=role)) #add the role
   except Exception as e:
     await ctx.send('There was an error running this command ' + str(e)) #if error
-  else:    await ctx.send("""👏�Mostantól Test rangot kapott:@{}""".format(memberk)) 
+  else:    await ctx.send("""👏Mostantól Test rangot kapott:@{}""".format(memberk)) 
 
 
 def addrole(id):
